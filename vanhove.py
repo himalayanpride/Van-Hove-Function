@@ -1,5 +1,12 @@
 #!/bin/env python3
-import MDAnalysis as mda
+#################################################################
+# This uses MDAnalysis module. You have to have this module to  #
+# run this progrm. The coordinate/velocity parsing is done by   #
+# MDAnalysis module. This module will plot scatting function    #
+# S(q,t). You can also output Gs(r,t) self-part of Van Hove     # 
+# Correlation funciton.                                         #
+#################################################################
+import MDAnalysis as mda 
 import numpy as np
 import multiprocessing as mp
 from multiprocessing import Pool
